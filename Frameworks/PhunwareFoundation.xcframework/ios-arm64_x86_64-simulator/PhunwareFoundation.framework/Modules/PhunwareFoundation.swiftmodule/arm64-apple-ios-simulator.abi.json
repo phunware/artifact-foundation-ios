@@ -1,0 +1,2429 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PhunwareFoundation",
+    "printedName": "PhunwareFoundation",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PWCore",
+        "printedName": "PWCore",
+        "declKind": "Import",
+        "moduleName": "PhunwareFoundation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScreenViewEventReporting",
+        "printedName": "ScreenViewEventReporting",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "screenName",
+            "printedName": "screenName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP10screenNameSSvp",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP10screenNameSSvp",
+            "moduleName": "PhunwareFoundation",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP10screenNameSSvg",
+                "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP10screenNameSSvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appSection",
+            "printedName": "appSection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP10appSectionSSSgvp",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP10appSectionSSSgvp",
+            "moduleName": "PhunwareFoundation",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP10appSectionSSSgvg",
+                "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP10appSectionSSSgvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP10parametersSDyS2SGSgvp",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP10parametersSDyS2SGSgvp",
+            "moduleName": "PhunwareFoundation",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP10parametersSDyS2SGSgvg",
+                "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP10parametersSDyS2SGSgvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startScreenViewEvent",
+            "printedName": "startScreenViewEvent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP05startcdE0yyF",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP05startcdE0yyF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endScreenViewEvent",
+            "printedName": "endScreenViewEvent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP03endcdE0yyF",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP03endcdE0yyF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "screenName",
+            "printedName": "screenName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE10screenNameSSvp",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE10screenNameSSvp",
+            "moduleName": "PhunwareFoundation",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE10screenNameSSvg",
+                "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE10screenNameSSvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appSection",
+            "printedName": "appSection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE10appSectionSSSgvp",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE10appSectionSSSgvp",
+            "moduleName": "PhunwareFoundation",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE10appSectionSSSgvg",
+                "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE10appSectionSSSgvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE10parametersSDyS2SGSgvp",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE10parametersSDyS2SGSgvp",
+            "moduleName": "PhunwareFoundation",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE10parametersSDyS2SGSgvg",
+                "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE10parametersSDyS2SGSgvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startScreenViewEvent",
+            "printedName": "startScreenViewEvent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE05startcdE0yyF",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE05startcdE0yyF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endScreenViewEvent",
+            "printedName": "endScreenViewEvent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation24ScreenViewEventReportingPAAE03endcdE0yyF",
+            "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingPAAE03endcdE0yyF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.ScreenViewEventReporting>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.ScreenViewEventReporting>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareFoundation24ScreenViewEventReportingP",
+        "mangledName": "$s18PhunwareFoundation24ScreenViewEventReportingP",
+        "moduleName": "PhunwareFoundation",
+        "genericSig": "<τ_0_0 : UIKit.UIViewController>",
+        "sugared_genericSig": "<Self : UIKit.UIViewController>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackgroundMode",
+        "printedName": "BackgroundMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "audio",
+            "printedName": "audio",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO5audioyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO5audioyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO8locationyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO8locationyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "voip",
+            "printedName": "voip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO4voipyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO4voipyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "externalAccessory",
+            "printedName": "externalAccessory",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO17externalAccessoryyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO17externalAccessoryyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "bluetoothCentral",
+            "printedName": "bluetoothCentral",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO16bluetoothCentralyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO16bluetoothCentralyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "bluetoothPeripheral",
+            "printedName": "bluetoothPeripheral",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO19bluetoothPeripheralyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO19bluetoothPeripheralyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "fetch",
+            "printedName": "fetch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO5fetchyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO5fetchyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "remoteNotification",
+            "printedName": "remoteNotification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO18remoteNotificationyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO18remoteNotificationyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "processing",
+            "printedName": "processing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO10processingyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO10processingyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "nearbyInteraction",
+            "printedName": "nearbyInteraction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO17nearbyInteractionyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO17nearbyInteractionyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Var",
+            "name": "pushToTalk",
+            "printedName": "pushToTalk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwareFoundation.BackgroundMode.Type) -> PhunwareFoundation.BackgroundMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PhunwareFoundation.BackgroundMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO10pushToTalkyA2CmF",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO10pushToTalkyA2CmF",
+            "moduleName": "PhunwareFoundation"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PhunwareFoundation.BackgroundMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO8rawValueACSgSS_tcfc",
+            "moduleName": "PhunwareFoundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO8rawValueSSvp",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO8rawValueSSvp",
+            "moduleName": "PhunwareFoundation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation14BackgroundModeO8rawValueSSvg",
+                "mangledName": "$s18PhunwareFoundation14BackgroundModeO8rawValueSSvg",
+                "moduleName": "PhunwareFoundation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PhunwareFoundation.BackgroundMode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation14BackgroundModeO8allCasesSayACGvpZ",
+            "mangledName": "$s18PhunwareFoundation14BackgroundModeO8allCasesSayACGvpZ",
+            "moduleName": "PhunwareFoundation",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PhunwareFoundation.BackgroundMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation14BackgroundModeO8allCasesSayACGvgZ",
+                "mangledName": "$s18PhunwareFoundation14BackgroundModeO8allCasesSayACGvgZ",
+                "moduleName": "PhunwareFoundation",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18PhunwareFoundation14BackgroundModeO",
+        "mangledName": "$s18PhunwareFoundation14BackgroundModeO",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PhunwareFoundation.BackgroundMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StoryboardInitializable",
+        "printedName": "StoryboardInitializable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "storyboardName",
+            "printedName": "storyboardName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation23StoryboardInitializableP14storyboardNameSSvpZ",
+            "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP14storyboardNameSSvpZ",
+            "moduleName": "PhunwareFoundation",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation23StoryboardInitializableP14storyboardNameSSvgZ",
+                "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP14storyboardNameSSvgZ",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.StoryboardInitializable>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.StoryboardInitializable>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storyboardBundle",
+            "printedName": "storyboardBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation23StoryboardInitializableP16storyboardBundleSo8NSBundleCSgvpZ",
+            "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP16storyboardBundleSo8NSBundleCSgvpZ",
+            "moduleName": "PhunwareFoundation",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation23StoryboardInitializableP16storyboardBundleSo8NSBundleCSgvgZ",
+                "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP16storyboardBundleSo8NSBundleCSgvgZ",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.StoryboardInitializable>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.StoryboardInitializable>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storyboardIdentifier",
+            "printedName": "storyboardIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation23StoryboardInitializableP20storyboardIdentifierSSvpZ",
+            "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP20storyboardIdentifierSSvpZ",
+            "moduleName": "PhunwareFoundation",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation23StoryboardInitializableP20storyboardIdentifierSSvgZ",
+                "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP20storyboardIdentifierSSvgZ",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.StoryboardInitializable>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.StoryboardInitializable>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeFromStoryboard",
+            "printedName": "makeFromStoryboard()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation23StoryboardInitializableP08makeFromC0xyFZ",
+            "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP08makeFromC0xyFZ",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.StoryboardInitializable>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.StoryboardInitializable>",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "storyboardBundle",
+            "printedName": "storyboardBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation23StoryboardInitializablePAAE16storyboardBundleSo8NSBundleCSgvpZ",
+            "mangledName": "$s18PhunwareFoundation23StoryboardInitializablePAAE16storyboardBundleSo8NSBundleCSgvpZ",
+            "moduleName": "PhunwareFoundation",
+            "static": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Bundle?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bundle",
+                        "printedName": "Foundation.Bundle",
+                        "usr": "c:objc(cs)NSBundle"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation23StoryboardInitializablePAAE16storyboardBundleSo8NSBundleCSgvgZ",
+                "mangledName": "$s18PhunwareFoundation23StoryboardInitializablePAAE16storyboardBundleSo8NSBundleCSgvgZ",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.StoryboardInitializable>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.StoryboardInitializable>",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storyboardIdentifier",
+            "printedName": "storyboardIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation23StoryboardInitializablePAAE20storyboardIdentifierSSvpZ",
+            "mangledName": "$s18PhunwareFoundation23StoryboardInitializablePAAE20storyboardIdentifierSSvpZ",
+            "moduleName": "PhunwareFoundation",
+            "static": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation23StoryboardInitializablePAAE20storyboardIdentifierSSvgZ",
+                "mangledName": "$s18PhunwareFoundation23StoryboardInitializablePAAE20storyboardIdentifierSSvgZ",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.StoryboardInitializable>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.StoryboardInitializable>",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeFromStoryboard",
+            "printedName": "makeFromStoryboard()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation23StoryboardInitializablePAAE08makeFromC0xyFZ",
+            "mangledName": "$s18PhunwareFoundation23StoryboardInitializablePAAE08makeFromC0xyFZ",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.StoryboardInitializable>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.StoryboardInitializable>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareFoundation23StoryboardInitializableP",
+        "mangledName": "$s18PhunwareFoundation23StoryboardInitializableP",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PhunwareFoundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Coordinator",
+        "printedName": "Coordinator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "childCoordinators",
+            "printedName": "childCoordinators",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any PhunwareFoundation.Coordinator]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "any PhunwareFoundation.Coordinator",
+                    "usr": "s:18PhunwareFoundation11CoordinatorP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvp",
+            "mangledName": "$s18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvp",
+            "moduleName": "PhunwareFoundation",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any PhunwareFoundation.Coordinator]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Coordinator",
+                        "printedName": "any PhunwareFoundation.Coordinator",
+                        "usr": "s:18PhunwareFoundation11CoordinatorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvg",
+                "mangledName": "$s18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any PhunwareFoundation.Coordinator]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Coordinator",
+                        "printedName": "any PhunwareFoundation.Coordinator",
+                        "usr": "s:18PhunwareFoundation11CoordinatorP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvs",
+                "mangledName": "$s18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvs",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvM",
+                "mangledName": "$s18PhunwareFoundation11CoordinatorP17childCoordinatorsSayAaB_pGvM",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navigationController",
+            "printedName": "navigationController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0Cvp",
+            "mangledName": "$s18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0Cvp",
+            "moduleName": "PhunwareFoundation",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0Cvg",
+                "mangledName": "$s18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0Cvg",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0Cvs",
+                "mangledName": "$s18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0Cvs",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0CvM",
+                "mangledName": "$s18PhunwareFoundation11CoordinatorP20navigationControllerSo012UINavigationE0CvM",
+                "moduleName": "PhunwareFoundation",
+                "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+                "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation11CoordinatorP5startyyF",
+            "mangledName": "$s18PhunwareFoundation11CoordinatorP5startyyF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeChildCoordinator",
+            "printedName": "removeChildCoordinator(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "any PhunwareFoundation.Coordinator",
+                "usr": "s:18PhunwareFoundation11CoordinatorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PhunwareFoundation11CoordinatorPAAE011removeChildC0yyAaB_pF",
+            "mangledName": "$s18PhunwareFoundation11CoordinatorPAAE011removeChildC0yyAaB_pF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : PhunwareFoundation.Coordinator>",
+            "sugared_genericSig": "<Self where Self : PhunwareFoundation.Coordinator>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18PhunwareFoundation11CoordinatorP",
+        "mangledName": "$s18PhunwareFoundation11CoordinatorP",
+        "moduleName": "PhunwareFoundation",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "backgroundModes",
+            "printedName": "backgroundModes(contains:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BackgroundMode",
+                "printedName": "PhunwareFoundation.BackgroundMode",
+                "usr": "s:18PhunwareFoundation14BackgroundModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8NSBundleC18PhunwareFoundationE15backgroundModes8containsSbAC14BackgroundModeO_tF",
+            "mangledName": "$sSo8NSBundleC18PhunwareFoundationE15backgroundModes8containsSbAC14BackgroundModeO_tF",
+            "moduleName": "PhunwareFoundation",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "enabledBackgroundModes",
+            "printedName": "enabledBackgroundModes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PhunwareFoundation.BackgroundMode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackgroundMode",
+                    "printedName": "PhunwareFoundation.BackgroundMode",
+                    "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC18PhunwareFoundationE22enabledBackgroundModesSayAC0E4ModeOGvp",
+            "mangledName": "$sSo8NSBundleC18PhunwareFoundationE22enabledBackgroundModesSayAC0E4ModeOGvp",
+            "moduleName": "PhunwareFoundation",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PhunwareFoundation.BackgroundMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackgroundMode",
+                        "printedName": "PhunwareFoundation.BackgroundMode",
+                        "usr": "s:18PhunwareFoundation14BackgroundModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC18PhunwareFoundationE22enabledBackgroundModesSayAC0E4ModeOGvg",
+                "mangledName": "$sSo8NSBundleC18PhunwareFoundationE22enabledBackgroundModesSayAC0E4ModeOGvg",
+                "moduleName": "PhunwareFoundation",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC18PhunwareFoundationE7versionSSvp",
+            "mangledName": "$sSo8NSBundleC18PhunwareFoundationE7versionSSvp",
+            "moduleName": "PhunwareFoundation",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC18PhunwareFoundationE7versionSSvg",
+                "mangledName": "$sSo8NSBundleC18PhunwareFoundationE7versionSSvg",
+                "moduleName": "PhunwareFoundation",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So13UIApplicationC18PhunwareFoundationE10appVersionSSvpZ",
+            "mangledName": "$sSo13UIApplicationC18PhunwareFoundationE10appVersionSSvpZ",
+            "moduleName": "PhunwareFoundation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So13UIApplicationC18PhunwareFoundationE10appVersionSSvgZ",
+                "mangledName": "$sSo13UIApplicationC18PhunwareFoundationE10appVersionSSvgZ",
+                "moduleName": "PhunwareFoundation",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSObjectProtocol",
+        "printedName": "NSObjectProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "observe",
+            "printedName": "observe(_:onChange:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSKeyValueObservation",
+                "printedName": "Foundation.NSKeyValueObservation",
+                "usr": "c:@M@Foundation@objc(cs)_NSKeyValueObservation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_1_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8NSObjectP18PhunwareFoundationSoAACRbzrlE7observe_8onChange0C021NSKeyValueObservationCs7KeyPathCyxqd__G_yqd__ctlF",
+            "mangledName": "$sSo8NSObjectP18PhunwareFoundationSoAACRbzrlE7observe_8onChange0C021NSKeyValueObservationCs7KeyPathCyxqd__G_yqd__ctlF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ObjectiveC.NSObject>",
+            "sugared_genericSig": "<Self, Value where Self : ObjectiveC.NSObject>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bind",
+            "printedName": "bind(_:to:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSKeyValueObservation",
+                "printedName": "Foundation.NSKeyValueObservation",
+                "usr": "c:@M@Foundation@objc(cs)_NSKeyValueObservation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyPath",
+                "printedName": "Swift.KeyPath<τ_0_0, τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:s7KeyPathC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReferenceWritableKeyPath",
+                "printedName": "Swift.ReferenceWritableKeyPath<τ_1_1, τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:s24ReferenceWritableKeyPathC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8NSObjectP18PhunwareFoundationSoAACRbzrlE4bind_2to2at0C021NSKeyValueObservationCs7KeyPathCyxqd__G_qd_0_s017ReferenceWritablejK0Cyqd_0_qd__Gtr0_lF",
+            "mangledName": "$sSo8NSObjectP18PhunwareFoundationSoAACRbzrlE4bind_2to2at0C021NSKeyValueObservationCs7KeyPathCyxqd__G_qd_0_s017ReferenceWritablejK0Cyqd_0_qd__Gtr0_lF",
+            "moduleName": "PhunwareFoundation",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : ObjectiveC.NSObject>",
+            "sugared_genericSig": "<Self, Value, Target where Self : ObjectiveC.NSObject>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:objc(pl)NSObject",
+        "moduleName": "ObjectiveC",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "NSObject",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 20,
+      "value": "\"external-accessory\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 19,
+      "value": "\"bluetooth-central\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 22,
+      "value": "\"bluetooth-peripheral\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 21,
+      "value": "\"remote-notification\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 20,
+      "value": "\"nearby-interaction\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 14,
+      "value": "\"push-to-talk\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1723,
+      "length": 19,
+      "value": "\"UIBackgroundModes\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-foundation-external-ios\/PhunwareFoundation\/Extensions\/Bundle+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1780,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    }
+  ]
+}

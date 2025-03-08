@@ -1,11 +1,11 @@
 framework module PhunwareFoundation {
   umbrella header "PhunwareFoundation.h"
-
   export *
+
   module * { export * }
 }
 
 module PhunwareFoundation.Swift {
-    header "PhunwareFoundation-Swift.h"
-    requires objc
+  header "PhunwareFoundation-Swift.h"
+  requires objc
 }
