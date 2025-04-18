@@ -8,9 +8,23 @@ Pod::Spec.new do |spec|
   spec.social_media_url    = 'https://twitter.com/Phunware'
   spec.platform            = :ios, '15.5'
   spec.source              = { :git => 'https://github.com/phunware/artifact-foundation-ios.git', :tag => spec.version.to_s }
-  spec.vendored_frameworks = 'Frameworks/PhunwareFoundation.xcframework'
   spec.framework           = 'UIKit'
   spec.cocoapods_version   = '>= 1.12.0'
 
-  spec.dependency 'PWCore', '~> 3.13.0'
+  spec.default_subspecs = 'Core'
+
+  spec.subspec 'Core' do |subspec|
+    subspec.dependency 'PWCore', '~> 3.13.0'
+
+    subspec.vendored_frameworks = 'Frameworks/PhunwareFoundation.xcframework'
+  end
+
+
+  ## Frameworks linked with static libraries
+  spec.subspec 'CoreStaticLinks' do |subspec|
+    subspec.dependency 'PWCore/CoreStaticLinks', '~> 3.13.0'
+
+    subspec.vendored_frameworks = 'FrameworksStaticLinks/PWLocation.xcframework'    
+  end
+
 end
