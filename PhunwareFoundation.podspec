@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'CoreStaticLinks' do |subspec|
     subspec.dependency 'PWCore/CoreStaticLinks', '~> 3.13.0'
 
-    subspec.vendored_frameworks = 'FrameworksStaticLinks/PWLocation.xcframework'    
+    subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareFoundation.xcframework'    
   end
 
 end
