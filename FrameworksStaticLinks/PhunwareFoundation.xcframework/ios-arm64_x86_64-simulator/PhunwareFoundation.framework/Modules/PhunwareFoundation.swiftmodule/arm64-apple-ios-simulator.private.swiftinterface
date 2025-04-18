@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwareFoundation
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import PWCore
+@_exported import PhunwareFoundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol ScreenViewEventReporting : UIKit.UIViewController {
+  var screenName: String { get }
+  var appSection: String? { get }
+  var parameters: [String : String]? { get }
+  func startScreenViewEvent()
+  func endScreenViewEvent()
+}
+extension ScreenViewEventReporting {
+  public var screenName: String {
+    get
+  }
+  public var appSection: String? {
+    get
+  }
+  public var parameters: [String : String]? {
+    get
+  }
+  public func startScreenViewEvent()
+  public func endScreenViewEvent()
+}
+public enum BackgroundMode : String, CaseIterable {
+  case audio
+  case location
+  case voip
+  case externalAccessory
+  case bluetoothCentral
+  case bluetoothPeripheral
+  case fetch
+  case remoteNotification
+  case processing
+  case nearbyInteraction
+  case pushToTalk
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [PhunwareFoundation.BackgroundMode]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [PhunwareFoundation.BackgroundMode] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Bundle {
+  public func backgroundModes(contains mode: BackgroundMode) -> Bool
+  public var enabledBackgroundModes: [BackgroundMode] {
+    get
+  }
+  public var version: String {
+    get
+  }
+}
+extension UIApplication {
+  @_Concurrency.MainActor @preconcurrency public static var appVersion: String {
+    get
+  }
+}
+public protocol StoryboardInitializable {
+  static var storyboardName: String { get }
+  static var storyboardBundle: Bundle? { get }
+  static var storyboardIdentifier: String { get }
+  static func makeFromStoryboard() -> Self
+}
+extension StoryboardInitializable {
+  public static var storyboardBundle: Bundle? {
+    get
+  }
+  public static var storyboardIdentifier: String {
+    get
+  }
+  public static func makeFromStoryboard() -> Self
+}
+extension NSObjectProtocol where Self : ObjectiveC.NSObject {
+  public func observe<Value>(_ keyPath: KeyPath<Self, Value>, onChange: @escaping (Value) -> ()) -> NSKeyValueObservation
+  public func bind<Value, Target>(_ sourceKeyPath: KeyPath<Self, Value>, to target: Target, at targetKeyPath: ReferenceWritableKeyPath<Target, Value>) -> NSKeyValueObservation
+}
+public protocol Coordinator : AnyObject {
+  var childCoordinators: [Coordinator] { get set }
+  var navigationController: UINavigationController { get set }
+  func start()
+}
+extension Coordinator {
+  public func removeChildCoordinator(_ child: Coordinator)
+}
+extension PhunwareFoundation.BackgroundMode : Swift.Equatable {}
+extension PhunwareFoundation.BackgroundMode : Swift.Hashable {}
+extension PhunwareFoundation.BackgroundMode : Swift.RawRepresentable {}
