@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwareFoundation
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PhunwareFoundation
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import Foundation
 import PWCore
 @_exported import PhunwareFoundation
@@ -12,8 +12,12 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public protocol ScreenViewEventReporting : UIKit.UIViewController {
   var screenName: String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var appSection: String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var parameters: [String : String]? { get }
+  #endif
   func startScreenViewEvent()
   func endScreenViewEvent()
 }
@@ -21,12 +25,16 @@ extension ScreenViewEventReporting {
   public var screenName: String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var appSection: String? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var parameters: [String : String]? {
     get
   }
+  #endif
   public func startScreenViewEvent()
   public func endScreenViewEvent()
 }
@@ -42,7 +50,9 @@ public enum BackgroundMode : String, CaseIterable {
   case processing
   case nearbyInteraction
   case pushToTalk
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [PhunwareFoundation.BackgroundMode]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [PhunwareFoundation.BackgroundMode] {
@@ -68,14 +78,18 @@ extension UIApplication {
 }
 public protocol StoryboardInitializable {
   static var storyboardName: String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   static var storyboardBundle: Bundle? { get }
+  #endif
   static var storyboardIdentifier: String { get }
   static func makeFromStoryboard() -> Self
 }
 extension StoryboardInitializable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static var storyboardBundle: Bundle? {
     get
   }
+  #endif
   public static var storyboardIdentifier: String {
     get
   }
