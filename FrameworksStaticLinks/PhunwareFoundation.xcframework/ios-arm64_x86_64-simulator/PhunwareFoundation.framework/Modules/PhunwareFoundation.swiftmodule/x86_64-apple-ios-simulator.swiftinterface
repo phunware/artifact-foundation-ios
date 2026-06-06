@@ -53,9 +53,9 @@ public enum BackgroundMode : String, CaseIterable {
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
-  public typealias AllCases = [PhunwareFoundation.BackgroundMode]
+  public typealias AllCases = [BackgroundMode]
   public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [PhunwareFoundation.BackgroundMode] {
+  nonisolated public static var allCases: [BackgroundMode] {
     get
   }
   public var rawValue: Swift.String {
@@ -107,6 +107,6 @@ public protocol Coordinator : AnyObject {
 extension Coordinator {
   public func removeChildCoordinator(_ child: Coordinator)
 }
-extension PhunwareFoundation.BackgroundMode : Swift.Equatable {}
-extension PhunwareFoundation.BackgroundMode : Swift.Hashable {}
-extension PhunwareFoundation.BackgroundMode : Swift.RawRepresentable {}
+extension BackgroundMode : Swift.Equatable {}
+extension BackgroundMode : Swift.Hashable {}
+extension BackgroundMode : Swift.RawRepresentable {}
