@@ -13,13 +13,13 @@ let package = Package(
             targets: ["PhunwareFoundationTargets"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/phunware/maas-core-ios-sdk.git", from: "3.13.0"),
+        .package(url: "https://github.com/phunware/maas-core-ios-sdk.git", branch: "release/3.13.3"),
     ],
     targets: [
         // Internal frameworks
         .binaryTarget(
             name: "PhunwareFoundation",
-            path: "FrameworksStaticLinks/PhunwareFoundation.xcframework"
+            path: "Frameworks/PhunwareFoundation.xcframework"
         ),
         .target(name: "PhunwareFoundationTargets",
             dependencies:[
